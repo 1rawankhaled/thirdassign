@@ -1,0 +1,395 @@
+/*home sec*/
+*{  padding: 0;
+  margin: 0;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.logo{
+  width: 40%;
+  float: left;
+ 
+ }
+ .logo img{
+  width: 30%;
+  padding: 24 80;
+ }
+ .navlist{
+  width: 50%;
+  float: right;
+ 
+ }
+ .navlist ul li{
+float: left;
+list-style-type: none;
+padding: 30 40;
+ }
+ .navlist ul li a{
+color: aliceblue;
+font-size: 16px;
+text-decoration: none;
+ }
+ .clr{clear: both;}
+.home{
+background-image:url(../PIC/drew-coffman-1872.jpg);
+background-size: 100% 100%;
+height: 100vh;
+}
+.homecap{
+  text-align: center;
+ padding: 260px;
+ color: white;
+}
+.homecap h1{
+  font-size: 76px;
+  font-family: 'Alegreya', serif;
+  margin-bottom: 20px;
+}
+.homecap h2, h3{
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.btn{
+  background-color: transparent ;
+  border: none;
+  padding: 15 28;
+  margin-top: 15px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #fff;
+}
+.btn_brown{
+  background-color: #8e7754;
+}
+.btn_white{
+  border: 2px solid white;
+  background-color:transparent;
+}
+.scroll_button{
+  display: inline-block;
+  border: 2px solid rgba(255,255,255,0.7);
+  color: #fff;
+  width: 32px;
+  height: 50px;
+  border-radius: 24px;
+  text-indent: -9999px;
+  position: relative;
+  cursor: pointer;
+  margin: 180px;
+  
+}
+/*who we are sec*/
+
+.who_we_are{
+  
+  width: 80%;
+  margin: 100px auto 0;
+}
+.who_image{
+  width: 40%;
+  display: inline-block;
+}
+.who_image img{
+  width: 100%;
+}
+.who_content{
+width: 40%;
+display: inline-block;
+vertical-align: top;
+
+
+margin-left: 100px;
+}
+.who_content ul li img{
+  width: 10%;
+}
+.who_content h2{
+margin: 20 0;
+font-size: 30px;
+font-family: 'Alegreya', serif;
+}
+.who_content p{
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.who_content ul{
+  list-style: none;
+}
+.who_content ul li span , .who_content ul li img{
+  vertical-align: middle;
+}
+.who_content p{
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+} 
+
+.who_content ul li span {
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+}
+
+/*our location*/
+.cont{
+  
+  background-color: #f8f8f8;
+}
+.our-location{
+  width: 80%;
+  margin: 100px auto 0;
+
+}
+.our-location-contact{
+  width: 40%;
+display: inline-block;
+vertical-align: top;
+margin-right: 100px;
+}
+ .our-location-img{
+  width: 40%;
+  display: inline-block;
+} 
+.our-location-img img{
+  width: 100%;
+}
+.our-location-contact h2{
+font-size: 32px;
+font-family:'Alegreya', serif ;
+margin: 80 0 20 0;
+}
+.our-location-contact p{
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+}
+/*our baking*/
+.our-baking{
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+.sp , .Bagels ,.cookies {
+ 
+width: 30%;
+
+float: left;
+
+}
+.sp img ,.Bagels img , .cookies img{
+  width: 100%;
+}
+.sp{
+  margin: 30 0 0 0; 
+}
+.Bagels{
+  margin: 30 0 0 60;
+}
+.cookies{
+  margin: 30 0 0 80;
+}
+.our-baking{ margin-top: 80px;}
+
+.our-baking h4{
+  font-size: 30px;
+  font-family:'Alegreya', serif ;
+}
+.our-baking p{
+  margin-top:20px;
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+}
+.sp p ,.Bagels p , .cookies p{
+  font-size: 17px;
+  color: #686868;
+}
+/*map sec*/
+
+ .info{
+  height: 600px;
+  background-color:#f8f8f8; 
+}
+.con{
+  width: 80%;
+  margin: auto;
+}
+.info-map , .info-cont{
+  width: 40%;
+  float: right;
+}
+.info-cont{
+  margin:100  220 0 0 ;
+}
+.info-map{
+  margin:100  0 0 0 ;
+} 
+.info-cont h2{
+  font-size: 32px ;
+  font-family:'Alegreya', serif ;
+  line-height: 1.8;
+}
+.info-cont p , h3 , ul li span{
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+  line-height: 1.8;
+}
+
+.info-cont ul li img{
+  width: 10%;
+}
+.info-cont ul{
+  list-style: none;}
+
+.info-cont ul li span , .info-cont ul li img{
+  vertical-align: middle;
+
+}
+
+/*footer*/
+.footer{
+  height: 500px;
+  background-color: #403d38;
+}
+
+.co{
+  width: 80%;
+  margin: auto;  
+}
+
+.abu  {
+  width: 20%;
+  float: left;
+}
+.why {
+  width: 20%;
+  float: left;
+}
+.op {
+  width: 20%;
+  float: left;
+}
+.us{
+  width: 20%;
+  float: left;
+}
+.abu h4{
+  margin-top: 60px;
+  font-size: 18px;
+  font-family:'Alegreya', serif ;
+  line-height: 5;
+  color: white;
+}
+.abu p{
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;;
+  line-height: 1.8;
+} 
+.abu .p2{
+  margin-top: 20px;
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;;
+  line-height: 1.8;
+
+}
+.why{
+  margin-left: 30px;
+}
+.why h4{
+  margin-top: 60px;
+  font-size: 18px;
+  font-family:'Alegreya', serif ;
+  line-height: 5;
+  color: white;
+}
+.why ul {
+  list-style: none;
+}
+
+.why ul li img{
+  width: 10%;
+}
+.why ul li span {
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+}
+ .op {
+  margin-left: 30px;
+ }
+ .op h4{
+  margin-top: 60px;
+  font-size: 18px;
+  font-family:'Alegreya', serif ;
+  line-height: 5;
+  color: white;
+ }
+ 
+ .op ul {
+  list-style: none;
+ }
+ .op ul li img{
+  width: 10%;
+}
+.op ul li span {
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+}
+.us {
+  margin-left: 30px;
+}
+.us h4{
+  margin-top: 60px;
+  font-size: 18px;
+  font-family:'Alegreya', serif ;
+  line-height: 5;
+  color: white;
+}
+ .us ul{
+  list-style: none;
+ }
+ .us ul li img{
+  width: 10%;
+}
+
+.us ul li a{ 
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+}
+.us ul li span {
+  font-size: 17px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+  line-height: 1.8;
+}
+/*logo*/
+
+.lo{
+  height: 300px;
+  background-color:#353330; 
+}
+.c{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.lo-pic img{
+  padding-top: 50px;
+  width:350px;
+}
+.lo-pic p{
+  padding-top: 30px;
+}
+.so img{
+  padding-top: 20px;
+width: 50px;
+
+}
